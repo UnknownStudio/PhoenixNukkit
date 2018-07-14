@@ -1,0 +1,6 @@
+name: PhoenixNukkit
+main: cn.mccraft.phoenix.nukkit.PluginMain
+version: "1.0.0"
+author: trychen
+api: ["1.0.0"]
+description: A unofficial implementation the Phoenix API on Nukkit.

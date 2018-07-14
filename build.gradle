@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+    id 'idea'
+}
+group 'cn.mccraft.phoenix.nukkit'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    maven { url 'http://jenkins.zxda.net/plugin/repository/everything/' }
+    maven { url 'https://www.jitpack.io' }
+}
+
+dependencies {
+    implementation 'com.github.ThePhoenixMC:PhoenixAPI:98cdbc8f8e'
+    implementation 'cn.nukkit:nukkit:1.0-SNAPSHOT'
+}
